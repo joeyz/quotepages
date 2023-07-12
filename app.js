@@ -1,3 +1,12 @@
+$.ajax({
+   type: "get",
+   url: "https://type.fit/api/quotes",
+   data: "data",
+   dataType: "json",
+   success: function (response) {
+      console.log(response);
+   }
+});
 var quotes = [
    "The only way to do great work is to love what you do. - Steve Jobs",
    "In the middle of difficulty lies opportunity. - Albert Einstein",
