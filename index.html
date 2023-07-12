@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Fun Quote Generator</title>
-   <link rel="stylesheet" href="app.css">
-</head>
-<body>
-   <div class="container">
-      <div class="title"></div>
-      <div class="quote_container">
-         <div class="quote_text"></div>
-         <div class="author"></div>
-      </div>
-      <button onclick="generateQuote()" class="gnBtn">Generate <span id="cog">⚙</span></button>
-   </div>
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="app.js"></script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Fun Quote Generator</title>
+      <link rel="stylesheet" href="app.css">
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="title"></div>
+         <div class="quote_container">
+            <div class="quote_text">Need a pick me up? Click the button and get an encouraging quote.</div>
+            <div class="quote_author"></div>
+         </div>
+         <button class="button" onclick="generateQuote()">
+            <span class="button-content">Generate </span>
+         </button>
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="app.js"></script>
+   </body>
+
 </html>
